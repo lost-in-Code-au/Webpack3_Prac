@@ -65,20 +65,14 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-const arr = [
-    'JavaScript', 
-    'Node', 
-    'Webpack', 
-    'React', 
-    'Angular', 
-    'Ember'
-]
-
-console.log(arr)
+"use strict";
 
 
+var arr = ['JavaScript', 'Node', 'Webpack', 'React', 'Angular', 'Ember'];
+
+console.log(arr);
 
 /***/ })
 /******/ ]);
