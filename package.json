@@ -1,0 +1,22 @@
+{
+  "name": "webpack3_prac",
+  "version": "1.0.0",
+  "description": "Project to learn webpack3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lost-in-Code-au/Webpack3_Prac.git"
+  },
+  "author": "Reece C Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lost-in-Code-au/Webpack3_Prac/issues"
+  },
+  "homepage": "https://github.com/lost-in-Code-au/Webpack3_Prac#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}

@@ -1,2 +1,2 @@
 # Webpack3_Prac
-Practice with developing my own webpack to understand it better
+A practice app for developing my own webpack to understand it better
