@@ -1,7 +1,6 @@
-$green: #00FF00;
-$white: #FFFFFF;
-
-div {
-    background: $green;
-    color: $white;
+#image {
+    background: url('billy.jpg') 50% 50% no-repeat;
+    height: 400px;
+    width: 400px;
+    background-size: cover;
 }
