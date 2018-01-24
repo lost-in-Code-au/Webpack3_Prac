@@ -1,13 +1,10 @@
 // CodeSplitting webpack setup
 const path = require('path')
 const webpack = require('webpack')
-const HTMLWebpackPlugin = require('html-webpack-plugin')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
-    entry: {
-        vendor: ["react", "react-dom"],
-        app : "./src/index.js"
-    },
+    entry: "./src/index.js",
     output: {
         filename: "[name].bundle.js",
         path: path.join(__dirname, "dist")
@@ -52,10 +49,6 @@ module.exports = {
         ]
     },
     plugins: [
-        new webpack.optimize.CommonsChunkPlugin({
-            name: "vendor",
-            filename: "vendor.bundle.js"
-        }),
-        new HTMLWebpackPlugin()
+        new UglifyJsPlugin()
     ]
 }
