@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom'
 import './style.scss'
 
 class Image extends React.Component {
+    constructor(props) {
+        super()
+        this.state = {
+            title: "Billy A.K.A The little man"
+        }
+    }
+    
     render() {
         return(
             <div>
-                <h1>{this.props.title}</h1>
+                <h1>{this.state.title}</h1>
                 <div id="image"></div>
                 <p>{this.props.caption}</p>
             </div>
@@ -14,5 +21,5 @@ class Image extends React.Component {
     }
 }
 
-ReactDOM.render(<Image title='Billy dah Cat' caption="The party cat" />, 
+ReactDOM.render(<Image caption="The party cat" />, 
     document.getElementById('react-container'))
