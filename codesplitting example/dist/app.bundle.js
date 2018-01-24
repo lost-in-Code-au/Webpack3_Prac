@@ -1,6 +1,6 @@
-webpackJsonp([1],{
+webpackJsonp([0],{
 
-/***/ 15:
+/***/ 27:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21,31 +21,31 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 //ES6 syntax of [import ReactDOM from 'react-dom'] for [ReactDOM.render]
 
-var About = function (_Component) {
-    _inherits(About, _Component);
+var Display = function (_Component) {
+    _inherits(Display, _Component);
 
-    function About() {
-        _classCallCheck(this, About);
+    function Display() {
+        _classCallCheck(this, Display);
 
-        return _possibleConstructorReturn(this, (About.__proto__ || Object.getPrototypeOf(About)).apply(this, arguments));
+        return _possibleConstructorReturn(this, (Display.__proto__ || Object.getPrototypeOf(Display)).apply(this, arguments));
     }
 
-    _createClass(About, [{
+    _createClass(Display, [{
         key: 'render',
         value: function render() {
             return React.createElement(
                 'div',
                 null,
-                ' This is some info on the company.'
+                ' Important Announcement '
             );
         }
     }]);
 
-    return About;
+    return Display;
 }(_react.Component);
 
-(0, _reactDom.render)(React.createElement(About, null), document.getElementById('react-container'));
+(0, _reactDom.render)(React.createElement(Display, null), document.getElementById('react-container'));
 
 /***/ })
 
-},[15]);
+},[27]);
